@@ -1,0 +1,2 @@
+let mainDiv=document.getElementById('mainDiv')
+   mainDiv.innerHTML=' <div class="space"><div class="first"><h2 id="headline">SO, YOU WANT TO TRAVEL TO</h2><h1 id="spaceHeading">SPACE</h1><p id="spacePara">Let'+"'"+'s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. We'+"'"+'ll sit back, and relax because we will give you a truly out of this world experience! </p></div><div class="second"><button id="explore">EXPLORE</button></div></div>'

@@ -1,0 +1,52 @@
+.photoMars {
+  display: inline-block;
+  width: 500px;
+  padding-left: 150px;
+}
+.descriptionSecond {
+  display: inline-block;
+  width: 530px;
+  padding-left: 100px;
+  padding-top: 150px;
+  padding-right: 150px;
+  color: white;
+}
+.destination {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  margin-top: -50px;
+}
+.planetHeading {
+  font-size: 70px;
+  margin: 30px 0px;
+}
+.planetDescription {
+  font-size: 20px;
+  word-spacing: 5px;
+  padding-right: 200px;
+}
+.navMars {
+  display: flex;
+}
+.planets {
+  background-color: transparent;
+  color: rgb(211, 210, 210);
+  margin-right: 30px;
+  border: 0px;
+  font-size: 25px;
+}
+.planets:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+#pickDestination {
+  color: white;
+  letter-spacing: 3px;
+  margin-left: -50px;
+}
+.number {
+  display: inline-block;
+  margin-right: 30px;
+  color: gray;
+}
