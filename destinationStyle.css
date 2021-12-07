@@ -33,7 +33,7 @@
 .planets {
   background-color: transparent;
   color: rgb(211, 210, 210);
-  margin-right: 30px;
+  /* margin-right: 0px; */
   border: 0px;
   font-size: 25px;
 }
@@ -61,7 +61,7 @@
     padding: 0;
   }
   .descriptionSecond{
-    padding: 100px 100px;
+    padding: 100px 0px;
   }
   .planetHeading{
     text-align: center;
@@ -71,7 +71,40 @@
     padding: 0px 40px;
   }
   .navMars{
-    justify-content: space-between;
+    justify-content: center;
+  }
+  #pickDestination{
+    margin-left: 0px;
+    width: 100vw;
+    margin:auto;
+    font-size: 20px;
+    text-align: center;
   }
   
+}
+@media screen and (max-width: 600px) {
+  .photoPlanet{
+    width: 300px;
+    height: 300px;
+  }
+  .planetImage{
+    display: flex;
+    justify-content: center;
+  }
+  .planets{
+    /* margin-right: 20px; */
+    font-size: 20px;
+  }
+  
+  .navMars{
+    justify-content: center;
+  }
+  .planetDescription{
+    font-size: 20px;
+    padding: 0px 10x;
+  }
+  #pickDestination{
+    margin-bottom: 30px;
+  }
+
 }

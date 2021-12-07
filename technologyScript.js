@@ -10,7 +10,7 @@ function firstButton()
   technologyVehicle.innerHTML='SPACEPORT'
   vehicleDescription.innerHTML='A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.'
   let technologyPhoto=document.getElementById('technologyPhoto')
-  technologyPhoto.innerHTML='<img src="assets/technology/image-spaceport-portrait.jpg" alt="">'
+  technologyPhoto.innerHTML='<img class="vehiclePhoto" src="assets/technology/image-spaceport-portrait.jpg" alt="">'
   setButtonColorToDefault();
   btn1.style.background='white'
   btn1.style.color='black'
@@ -29,7 +29,7 @@ function secondButton(){
     you'll spend your time during the flight. It includes a space gym, cinema, 
     and plenty of other activities to keep you entertained.`
     let technologyPhoto=document.getElementById('technologyPhoto')
-    technologyPhoto.innerHTML='<img src="assets/technology/image-space-capsule-portrait.jpg" alt="">'
+    technologyPhoto.innerHTML='<img class="vehiclePhoto" src="assets/technology/image-space-capsule-portrait.jpg" alt="">'
     setButtonColorToDefault();
     btn2.style.background='white'
   btn2.style.color='black'
@@ -47,7 +47,7 @@ function thirdButton(){
     WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
     it's quite an awe-inspiring sight on the launch pad!`
     let technologyPhoto=document.getElementById('technologyPhoto')
-    technologyPhoto.innerHTML='<img src="assets/technology/image-launch-vehicle-portrait.jpg" alt="">'
+    technologyPhoto.innerHTML='<img class="vehiclePhoto" src="assets/technology/image-launch-vehicle-portrait.jpg" alt="">'
     setButtonColorToDefault()
     btn3.style.background='white'
   btn3.style.color='black'
