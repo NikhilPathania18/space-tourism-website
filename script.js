@@ -172,3 +172,7 @@ function closeBar(){
   }, 5);
   checkSideBar=0;
 }
+function checkWidth(){
+  if(window.innerWidth<920)
+  sidebarFunction();
+}

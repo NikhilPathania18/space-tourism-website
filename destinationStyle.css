@@ -29,6 +29,7 @@
 }
 .navMars {
   display: flex;
+  justify-content: space-evenly;
 }
 .planets {
   background-color: transparent;
@@ -71,14 +72,21 @@
     padding: 0px 40px;
   }
   .navMars{
-    justify-content: center;
+    justify-content: space-evenly;
   }
   #pickDestination{
     margin-left: 0px;
-    width: 100vw;
+    width: 100%;
     margin:auto;
     font-size: 20px;
     text-align: center;
+  }
+  
+}
+@media screen and(max-width: 920px) {
+  .photoPlanet{
+    width: 300px;
+    height: 300px;
   }
   
 }
@@ -97,7 +105,7 @@
   }
   
   .navMars{
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .planetDescription{
     font-size: 20px;
