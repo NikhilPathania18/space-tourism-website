@@ -13,11 +13,12 @@
   color: gray;
 }
 body {
-  background-color: rgb(173, 149, 149);
+  background-color: rgb(0, 0, 0);
 }
 .mainBody {
   margin-top: 50px;
   display: flex;
+  /* flex-wrap: wrap; */
   font-family: "Lato", sans-serif;
   color: white;
   justify-content: space-between;
@@ -55,4 +56,43 @@ body {
 }
 #technologyPhoto {
   margin-top: -50px;
+}
+
+@media screen and (max-width:1500px) {
+  .mainBody{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #technologyPhoto{
+    margin: 0;
+    padding-bottom: 30px;
+    /* border-style: border-box;   */
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1119px) {
+  .numberButtonBar{
+    flex-flow: row;
+    height: auto;
+    width: auto;
+    margin: 0px 10px;
+  }
+  .numberButton{
+    margin: 0px 20px;
+  }
+  .introBar{
+    padding-left: 100px;
+  }
+  #technologyHeading{
+    text-align: center;
+  }
+  #technologyVehicle{
+    text-align: center;
+  }
+  #vehicleDescription{
+    text-align: center;
+    padding: 0px 40px;
+  }
 }
